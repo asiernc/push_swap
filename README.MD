@@ -68,10 +68,10 @@ For five hundred (500) numbers:
 
 # Average results
 
-For 3 numbers: 1-2 movements.
-for 5 numbers: ~8 movements.
-For 100 numbers: ~545 movements.
-For 500 numbers: ~4913 movements.
+For 3 numbers: 1-2 movements.\n
+for 5 numbers: ~8 movements.\n
+For 100 numbers: ~545 movements.\n
+For 500 numbers: ~4913 movements.\n
 
 
 
