@@ -11,7 +11,7 @@
 ## Table of Contents
 - [Summary](#-summary)
 - [Qualification](#-qualification)
-- [Average results](#-average results)
+- [Average results](#-averageresults)
 
 - [Installation](#-installation)
 
