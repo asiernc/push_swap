@@ -60,6 +60,27 @@ For five hundred (500) numbers:
     | **less than 10000** | 2	|  
     | **less than 11500** | 1 	|
 
+### Average results
+
+For 3 numbers: 1-2 movements.
+for 5 numbers: ~8 movements.
+For 100 numbers: ~545 movements.
+For 500 numbers: ~4913 movements.
+
+### Usage
+
+```sh
+./push_swap [numbers]
+```
+
+Example: 
+
+```sh
+./push_swap 66 581 841 488 627 547 758 471 31 107 118 227 701 605 300 405 464 830 115 624
+```
+💡 Tip: for a quick count of movements use "wc -l"
+
+
 ---
 ## Installation
 
@@ -75,7 +96,7 @@ cd push_swap
 
 3. Compile the library:
 
-    Using Makefile you can create library file libftprintf.a<br/>
+    Using Makefile you can create the file push_swap.a<br/>
     Makefile has 4 main options:<br/>
     ```sh
     make
