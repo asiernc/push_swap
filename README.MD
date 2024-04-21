@@ -12,7 +12,7 @@
 - [Summary](#-summary)
 - [Qualification](#-qualification)
 - [Average results](#-averageresults)
-
+- [Usage](#-usage)
 - [Installation](#-installation)
 
 
