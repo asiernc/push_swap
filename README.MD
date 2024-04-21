@@ -88,7 +88,7 @@ Example:
 ```sh
 ./push_swap 66 581 841 488 627 547 758 471 31 107 118 227 701 605 300 405 464 830 115 624
 ```
-💡 Tip: for a quick count of movements use "wc -l"
+💡 Tip: for a quick count of movements use " | wc -l"
 
 
 ---
