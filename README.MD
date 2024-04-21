@@ -39,10 +39,12 @@
 
 # Qualification
 
-For three (3) numbers: 
+For three (3) numbers:
+
     - Maximum 3 movements.
 
 For five (5) numbers:
+
     - Maximum 13 movements.
 
 For one hundred (100) numbers:
