@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">
-    <img src="./ft_printf.tiff" width= "200px">
-    <br>ft_prinf</br>
+    <img src="./img.png" width= "200px">
+    <br>Push swap</br>
 </h1>
 <p align="center">
     <img src="https://img.shields.io/badge/Barcelona-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000" alt="42 Barcelona"/>
@@ -15,21 +15,51 @@
 
 # Summary
 
-### Que es ft_printf?
-ft_printf es un proyecto de 42 donde recreamos el funcionamiento de `printf`.
-En nuestro ft_printf puedes usar las siguientes conversiones:
+### What is "push swap"?
+"Push swap" is a simple algorithmic project where you need to sort data. You have access to two stacks and a set of allowed movements. The goal is to create a program that sorts the data in the fewest number of movements. It's evaluated based on a scoring table. The movements are: 
 
 | Conversión  | Descripción|
 |-------|-----------------------------------------------------------------------------------|
-| **%c** | Imprime un solo carácter.   |
-| **%s** | Imprime una string (como se define por defecto en C).  	|
-| **%p** | El puntero void * dado como argumento se imprime en formato hexadecimal.         |
-| **%d** | Imprime un número decimal (base 10).		|  
-| **%i** | Imprime un entero en base 10.  	|
-| **%u** | Imprime un número decimal (base 10) sin signo.      |
-| **%x** | Imprime un número hexadecimal (base 16) en minúsculas.                				|
-| **%X** | Imprime un número hexadecimal (base 16) en mayúsculas.                				|
-| **%%** | Imprime el símbolo del porcentaje.                 			      |				
+| **sa** | swap a - exchanges the first two elements on top of stack a.   |
+| **sb** | swap b - exchanges the first two elements on top of stack b.  	|
+| **ss** | swap a and swap b simultaneously.        |
+| **pa** | push a - takes the first element from stack b and puts it on top of stack a.		|  
+| **pb** | push b - takes the first element from stack a and puts it on top of stack b.  	|
+| **ra** | rotate a - shifts all elements of stack a up by one position, the first element becomes the last.      |
+| **rb** | rotate b - shifts all elements of stack b up by one position, the first element becomes the last.               				|
+| **rr** | ra and rb simultaneously.               				|
+| **rra** | reverse rotate a - shifts all elements of stack a down by one position, the last element becomes the first.                				|
+| **rrb** | reverse rotate b - shifts all elements of stack b down by one position, the last element becomes the first.                				|
+| **rrr** | rra and rrb simultaneously.               				|
+
+### Qualification
+
+For three (3) numbers: 
+    - Maximum 3 movements.
+
+For five (5) numbers:
+    - Maximum 13 movements.
+
+For one hundred (100) numbers:
+
+    | Movements  | Points  |
+    |-------|-----------------------------------------------------------------------------------|
+    | **less than 700** | 5   |
+    | **less than 900** | 4  	|
+    | **less than 1100** | 3      |
+    | **less than 1300** | 2	|  
+    | **less than 1500** | 1 	|
+
+For five hundred (500) numbers:
+
+    | Movements  | Points  |
+    |-------|-----------------------------------------------------------------------------------|
+    | **less than 5500** | 5   |
+    | **less than 7000** | 4  	|
+    | **less than 8500** | 3      |
+    | **less than 10000** | 2	|  
+    | **less than 11500** | 1 	|
+
 ---
 ## Installation
 
@@ -40,7 +70,7 @@ git clone
 
 2. Change to the project directory:
 ```sh
-cd ft_printf
+cd push_swap
 ```
 
 3. Compile the library:
