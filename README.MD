@@ -10,13 +10,16 @@
 
 ## Table of Contents
 - [Summary](#-summary)
+- [Qualification](#-qualification)
+- [Average results](#-average results)
+
 - [Installation](#-installation)
 
 
 # Summary
 
 ### What is "push swap"?
-"Push swap" is a simple algorithmic project where you need to sort data. You have access to two stacks and a set of allowed movements. The goal is to create a program that sorts the data in the fewest number of movements. It's evaluated based on a scoring table. The movements are: 
+"Push swap" is a simple algorithmic project where you need to sort data. You have access to two stacks and a set of allowed movements. The goal is to create a program that sorts the data in the fewest number of movements. It's evaluated based on a scoring table. I implemented an algorithm based on the Turkish algorithm, which basically consists of finding which number is cheapest for me to place on its site. I used a double-linked structure that allowed me to perform the movements much more easily. The movements are: 
 
 | Conversión  | Descripción|
 |-------|-----------------------------------------------------------------------------------|
