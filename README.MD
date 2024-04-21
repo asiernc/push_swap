@@ -45,23 +45,23 @@ For five (5) numbers:
 
 For one hundred (100) numbers:
 
-    | Movements  | Points  |
-    |-------|-----------------------------------------------------------------------------------|
-    | **less than 700** | 5   |
-    | **less than 900** | 4  	|
-    | **less than 1100** | 3      |
-    | **less than 1300** | 2	|  
-    | **less than 1500** | 1 	|
+    |     Movements      |  Points   |
+    |--------------------|-----------|
+    | **less than 700**  |     5     |
+    | **less than 900**  |     4     |
+    | **less than 1100** |     3     |
+    | **less than 1300** |     2     |  
+    | **less than 1500** |     1     |
 
 For five hundred (500) numbers:
 
-    | Movements  | Points  |
-    |-------|-----------------------------------------------------------------------------------|
-    | **less than 5500** | 5   |
-    | **less than 7000** | 4  	|
-    | **less than 8500** | 3      |
-    | **less than 10000** | 2	|  
-    | **less than 11500** | 1 	|
+    |      Movements      |  Points    |
+    |---------------------|------------|
+    | **less than 5500**  |     5      |
+    | **less than 7000**  |     4      |
+    | **less than 8500**  |     3      |
+    | **less than 10000** |     2  	   |  
+    | **less than 11500** |     1 	   |
 
 ### Average results
 
