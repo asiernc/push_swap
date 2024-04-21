@@ -35,7 +35,9 @@
 | **rrb** | reverse rotate b - shifts all elements of stack b down by one position, the last element becomes the first.                				|
 | **rrr** | rra and rrb simultaneously.               				|
 
-### Qualification
+
+
+# Qualification
 
 For three (3) numbers: 
     - Maximum 3 movements.
@@ -63,14 +65,17 @@ For five hundred (500) numbers:
     | **less than 10000** |     2  	   |  
     | **less than 11500** |     1 	   |
 
-### Average results
+
+# Average results
 
 For 3 numbers: 1-2 movements.
 for 5 numbers: ~8 movements.
 For 100 numbers: ~545 movements.
 For 500 numbers: ~4913 movements.
 
-### Usage
+
+
+# Usage
 
 ```sh
 ./push_swap [numbers]
@@ -85,7 +90,7 @@ Example:
 
 
 ---
-## Installation
+# Installation
 
 1. Clone the Libft repository:
 ```sh
